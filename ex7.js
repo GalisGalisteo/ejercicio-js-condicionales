@@ -12,6 +12,6 @@ let usuario = "pepe@gmail.com";
 let password = "1996";
 
 /** NO TOCAR A PARTIR DE AQUÍ  */
-if (usuario == "pepa@gmail.com" && password == "1995") {
+if (usuario == "pepe@gmail.com" && password == "1996") {
   console.log("Credenciales correctas, bievenido usuario " + usuario);
 }

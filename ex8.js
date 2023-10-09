@@ -6,7 +6,7 @@
  * 1. Modifica el valor de la variable "nombre" para que se muestre por consola el mensaje "Tú NO eres Alex..."
  */
 
-let nombre = "Alex";
+let nombre = "Alexa";
 
 /**NO TOCAR A PARTIR DE AQUÍ */
 if (nombre != "Alex") {

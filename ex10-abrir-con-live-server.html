@@ -95,14 +95,28 @@
 
       // Ejercicio 1. Sobreescribe el valor de la variable precio a 59. Verifica que el precio se cambia en el HTML renderizado por el Live Server
 
+      precio = 10;
+
+      whyUs = "Los estudiantes de programación web eran tan buenos que hasta el HTML se renderizaba con una sonrisa.";
+
       // Ejercicio 2. Escribe un condicional if..else que compruebe lo siguiente. Si el precio del producto es mayor de 50 euros, debemos asignar a la variable claseCSS el valor "text-red-500". En caso contrario, debemos asignar el valor "text-blue-500".
+
+      if (precio > 50) {
+        claseCSS = "text-red-500";
+      }
 
       // Ejercicio 3. Nos han comentado que el texto del "whyUs" es demasiado largo. Demasiado bla bla. Actualiza la varible 'whyUs'. Queremos que quede algo como así: "Tutorials by industry experts Peer & expert code review ...". Nos han comentado que es olbigatorio que usemos el método substring para conseguir esto https://www.w3schools.com/jsref/jsref_substring.asp ; ya que el texto de whyUs puede cambiar en el futuro.
 
+      whyUs = whyUs.substring(0, 55) + "...";
+
       // Ejercicio 4. Vuelve a la instrucción que has usado en  el ejercicio 1. En ese mismo punto del código, sobreescribe la variable precio a 10 . ¿Cambia el color del precop ahora? ¿Por qué?
+
+      // sí cambia, porque 10 no es mayo que 50.
+
 
       // Ejercicio 5. En el mismo punto del Ejercicio 1, cambia la variable whyUs a este valor : "Los estudiantes de programación web eran tan buenos que hasta el HTML se renderizaba con una sonrisa."
 
+      
 
       // NO MODIFICAR A PARTIR DE AQUí!!
 

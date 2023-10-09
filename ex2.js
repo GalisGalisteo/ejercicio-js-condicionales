@@ -1,5 +1,11 @@
 /*
-¿Que va a mostrar por el terminal cuando hagamos node ex2.js? ¿Por qué?
+¿Que va a mostrar por el terminal cuando hagamos node ex2.js? 
+
+Cuack!
+
+¿Por qué?
+
+porque la condición (numero<2) es falsa
 */
 
 let numero = 3;

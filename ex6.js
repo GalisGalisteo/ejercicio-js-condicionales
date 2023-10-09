@@ -6,6 +6,10 @@ https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Opera
 
 1. Antes de ejecutar "node ex6.js"; razona: qué vamos a ver por el terminal? Por qué ?
 
+"Esta condición se cumple"
+
+Porque la segunda condición no se cumple, ya que -1 no es mayor a 0
+
 */
 
 if (4 > 3 && 6 > 5) {
